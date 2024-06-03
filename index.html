@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pompote - La compote préférée des enfants</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="header-content">
+            <h1 id="main-title">Pompote</h1>
+            <p>La compote préférée des enfants !</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#products">Produits</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://example.com" target="_blank">Site externe</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="banner" class="banner">
+        <img src="images/pompote-banner.jpg" alt="Pompote Banner" style="max-height: 400px; object-fit: cover;">
+    </section>
+
+    <section id="about">
+        <h2>À propos de Pompote</h2>
+        <p>Pompote est la compote préférée des enfants. Naturelle, savoureuse et respectueuse de l'environnement, elle est parfaite pour les petits comme les grands.</p>
+    </section>
+
+    <section id="products">
+        <h2>Nos Produits</h2>
+        <div class="product">
+            <h3>Pomme</h3>
+            <img src="images/pompote-pomme.jpg" alt="Pompote Pomme">
+            <p>La saveur classique qui plaît à tous les enfants.</p>
+        </div>
+        <div class="product">
+            <h3>Fraise</h3>
+            <img src="images/pompote-fraise.jpg" alt="Pompote Fraise">
+            <p>Une saveur gourmande et fruitée.</p>
+        </div>
+    </section>
+
+    <section id="list">
+        <h2>Avantages de la Pompote</h2>
+        <ul>
+            <li>Naturelle</li>
+            <li>Sans sucre ajouté</li>
+            <li>Pratique à emporter</li>
+        </ul>
+        <h2>Ingrédients de la Pompote Pomme</h2>
+        <ol>
+            <li>Pommes</li>
+            <li>Jus de citron</li>
+        </ol>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="submit-button">Envoyer</button>
+        </form>
+    </section>
+
+    <section id="video">
+        <h2>Découvrez notre vidéo</h2>
+        <iframe width="1190" height="669" src="https://www.youtube.com/embed/Jb7hCnjamk4" title="Pom&#39; Potes pomme nature &quot;il y a tout un monde dehors!&quot; Pub 23s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Pompote. Tous droits réservés.</p>
+        <p><a href="#">Mentions légales</a> | <a href="#">Politique de confidentialité</a></p>
+    </footer>
+</body>
+</html>
